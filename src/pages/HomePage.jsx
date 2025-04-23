@@ -5,17 +5,17 @@ const HomePage = ({ setCurrentPage }) => {
   const features = [
     {
       title: "소개",
-      description: "제 소개입니다.",
+      description: "저에 대해서 궁금하신가요!?",
       page: "about",
     },
     {
       title: "프로젝트",
-      description: "제가 만든 프로젝트들 입니다.",
+      description: "직접 개발한 프로젝트들!",
       page: "projects",
     },
     {
       title: "연락처",
-      description: "저에게 연락하는 방법입니다.",
+      description: "제게 연락하는 방법!",
       page: "contact",
     },
     {
