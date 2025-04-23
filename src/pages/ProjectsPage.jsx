@@ -1,6 +1,9 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
-import sampleImage from "../assets/calcu.png";
+import calculator from "../assets/calculator.png";
+import Dtc from "../assets/Dtc.png"
+import Dadam from "../assets/Dadam.png"
+
 
 /**
  * 프로젝트 페이지 컴포넌트
@@ -9,18 +12,20 @@ import sampleImage from "../assets/calcu.png";
 const ProjectsPage = () => {
   const projects = [
     {
-      title: "나의 프로젝트1",
-      description: "React를 사용하여 만든 계산기 애플리케이션",
-      image: sampleImage,
+      title: "계산기 프로젝트!",
+      description: "React를 사용하여 만든 계산기입니다!",
+      image: calculator,
     },
     {
-      title: "나의 프로젝트2",
-      description: "캡스톤 프로젝트에서의 딥러닝 기반 영상 분류 시스템",
+      title: "다문화를 담다: 다담",
+      description: "다문화 가정에게 문화체험을 추천해주는 서비스입니다!",
+      image: Dadam
     },
     {
-      title: "나의 프로젝트3",
-      description: "나만의 맛집 저장리스트 ~~",
-      link: "https://map.naver.com/p/entry/place/18697937?c=15.00,0,0,0,dh",
+      title: "사용자 맞춤형 챗봇 플랫폼 (My GPTs)",
+      description: "챗봇을 통해 사용자 맞춤형으로 여행 기록을 짜주는 서비스입니다!",
+      image: Dtc,
+      link: "https://www.youtube.com/watch?v=dBJPevtGO-k"
     },
   ];
 
