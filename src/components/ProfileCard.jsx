@@ -7,7 +7,7 @@ const ProfileCard = () => {
       <img src={profileImage} alt="프로필" />
       <div className="profile-info">
         <h3>박상범</h3>
-        <p>안녕하세요! 저는 React를 좋아하는 개발자입니다.</p>
+        <p>안녕하세요! 저는 React, SpringBoot를 다루는 개발자입니다!</p>
       </div>
     </div>
   );
