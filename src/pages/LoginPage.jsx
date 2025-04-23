@@ -19,7 +19,7 @@ const LoginPage = ({ onLogin }) => {
       <h2>로그인</h2>
       <form onSubmit={handleSubmit}>
         <div>
-          <label>아이디:</label>
+          <label>아이디</label>
           <input
             type="text"
             value={username}
@@ -27,7 +27,7 @@ const LoginPage = ({ onLogin }) => {
           />
         </div>
         <div>
-          <label>비밀번호:</label>
+          <label>비밀번호</label>
           <input
             type="password"
             value={password}
