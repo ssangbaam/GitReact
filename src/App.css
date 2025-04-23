@@ -116,6 +116,9 @@
 }
 
 .profile img {
+  width: 150px;         /* 또는 100px ~ 200px 정도로 조정 가능 */
+  height: 150px;
+  object-fit: cover;
   border-radius: 50%;
 }
 
